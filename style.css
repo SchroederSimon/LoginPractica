@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Montserrat';
+}
+
+.background {
+    background-image: url(imagenes/fondo3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+
+
+.loginBox {
+    width: 460px;
+    height: 720px;
+    background: rgba(235, 235, 235, 0.692);
+    color: rgb(41, 41, 41);
+    top: 50%;
+    left: 15%;
+    position: absolute;
+    transform: translate( -50%, -50%);
+    box-sizing: border-box;
+    border-radius: 20px;
+    padding: 20px 30px;
+    text-align: center;
+}
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 300px;
+    height: 300px;
+}
+
+h1 {
+    margin: 20px;
+    padding: 0 0 30px;
+    text-align: center;
+    font-size: 32px;
+}
+
+
+
+.loginBox input{
+    width: 100%;
+    margin-bottom: 40px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.loginBox input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: solid #da1f2a 1px;
+    background: transparent;
+    outline: none;
+    height: 30px;
+    width: 50%;
+    padding: 5px;
+    font-family: 'Montserrat';
+}
+
+.loginBox input[type="button"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #000000;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+    width: 50%;
+}
+
+.loginBox input[type="button"]:hover
+{
+    cursor: pointer;
+    background: #da1f2a;
+    color: #fff;
+}
+
+.loginBox a {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 20px;
+    color:darkgray;
+    padding: 5px;
+}
+
+.loginBox a:hover {
+    color: #da1f2a;
+}
